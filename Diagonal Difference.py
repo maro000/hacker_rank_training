@@ -14,7 +14,13 @@ import sys
 #
 
 def diagonalDifference(arr):
-    # Write your code here
+    prim =0
+    sec=0
+    length = len(arr[0])
+    for count in range(length):
+        prim += arr[count][count]
+        sec += arr[count][(length-count-1)]
+    return abs(prim-sec)
     
 
 if __name__ == '__main__':

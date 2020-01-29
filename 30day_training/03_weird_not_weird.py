@@ -18,3 +18,4 @@ else:
         print('Weird')
     elif 20 < N:
         print('Not Weird')
+        

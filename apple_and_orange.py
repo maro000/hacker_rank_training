@@ -1,9 +1,3 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
 #!/bin/python3
 
 import math

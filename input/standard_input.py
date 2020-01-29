@@ -51,3 +51,8 @@ list = []
 for i in range(5):
     a,b=input().split()
     list.append((int(a), b))
+
+# list in list 
+arr = []
+for _ in range(n):
+    arr.append(list(map(int, input().rstrip().split())))

@@ -8,6 +8,7 @@ import sys
 #
 def timeConversion(s):
     time = s.split(':')
+    print(time)
     if s[-2:] == 'PM':
         if time[0] != "12":
             time[0] = str(int(time[0])+12)

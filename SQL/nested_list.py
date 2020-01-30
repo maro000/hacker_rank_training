@@ -2,7 +2,7 @@
 
 N = int(input())
 
-students = list()
+students = []
 for i in range(N):
     students.append([input(), float(input())])
 
